@@ -10,7 +10,7 @@ async fn test() {
         Ok(ok) => ok,
         Err(err) => {
             eprintln!(
-                "Did Not Run Geocodio Test Because `LOB_API_KEY` Could Not Be Retrieved From Environment Variables: {err}"
+                "Did Not Run Lob Test Because `LOB_API_KEY` Could Not Be Retrieved From Environment Variables: {err}"
             );
             return;
         }

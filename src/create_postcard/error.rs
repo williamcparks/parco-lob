@@ -22,7 +22,7 @@ pub enum CreatePostcardError {
     ),
 
     /// An Api Error From Lob
-    #[error("Geocodio: {0}")]
+    #[error("Lob: {0}")]
     Api(
         #[from]
         #[source]

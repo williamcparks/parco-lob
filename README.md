@@ -1,4 +1,4 @@
-# Geocodio (Rust)
+# Lob (Rust)
 
 A small, async Rust client for the [Lob](https://www.lob.com) API, built on top of `reqwest` with a type-safe builder API.
 
